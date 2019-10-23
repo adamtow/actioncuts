@@ -1,0 +1,16 @@
+{
+	"en-US": {
+		"alert_about": "",
+		"alert_update_none": "You are running the latest version of this shortcut.",
+		"language_name": "English",
+		"language_key": "en-US",
+		"menu_about": "About…",
+		"menu_help": "Help…",
+		"menu_quit": "Quit",
+		"menu_update": "Check for Updates…",
+		"menu_update_now": "Update Now…",
+		"menu_update_later": "Update Later",
+		"prompt_language": "Choose language:",
+		"prompt_update": "Version {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}"
+	}
+}

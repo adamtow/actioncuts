@@ -108,13 +108,30 @@ where XYZ is the name of your action block
 3. Select the shortcut containing the ActionCuts Extract comments. 
 4. Save the action block in a new shortcut or into the ActionCuts Library.
 
-NOTE: While you can save multiple actions to the Action Blocks Library at a time, you can only save one action block to a shortcut. 
+### Magic and Named Variables in Action Blocks
+In the action blocks that you save or convert into shorcuts, references to any Magic Variables defined outside of the ActionCuts Extract Comments will be broken and labeled in red.
 
-### Magic Variables and Action Blocks
+![Magic and Named Variables](https://adamtow.github.io/actioncuts/images/magic-named-variables.png)
+
+If you reference Magic Variables outside of the action blocks, you will have to reconnect the parameters when you insert the action block into the target shortcut.
+
+Named variables are fine — those that are created using the Set Variable action — even though they show up as red. As long as the named variables are defined somewhere else in the target shortcut, the references will be re-associated.
+
+![Fixing Named Variables References](https://adamtow.github.io/actioncuts/images/named-variables-fixed.png)
+
+In the screenshot above, the variable `App (Forever)` was not defined in the Action Block called `AC.Application.loop`, but when it was defined in the target shortcut, the reference to the variable was automatically reconnected.
 
 ### Properly Wrapping Action Blocks
-It is very important that the ActionCuts Extract Comments are placed correctly around the actions you wish to extract. If you do not do this, the resulting action block or shortcut may not run properly or may cause problems in the shortcuts you insert them into. Consider the following example:
 
+It is very important that the ActionCuts Extract Comments are placed correctly around the actions you wish to extract. Consider the following shortcut:
+
+![Oops, this doesn't look right!](https://adamtow.github.io/actioncuts/images/extract-malformed.png)
+
+On the left screenshot, the ending Extract Comment was placed inside of the Repeat action, which itself was inside an If action. The comment should have been placed right outside of the End If action.
+
+When converted into a shortcut, it is readily apparent that the shortcut is malformed. The If action does not have its Otherwise nor End If actions, and the Repeat action does not have its closing End Repeat action.
+
+Placing the starting and end Extract Comments in the wrong place can result in unexpected behavior when running your shortcuts.
 
 
 ****

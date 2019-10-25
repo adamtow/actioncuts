@@ -25,11 +25,11 @@ ActionCuts works by looking for specially-formatted comments in a shortcut. It r
 
 Each comment must contain a single line of text in one of two formats: 
 
-`{{ActionCuts Shortcut:XYZ}}`
+{{ActionCuts Shortcut:XYZ}}
 
 or
 
-`{{ActionCuts Action:XYZ}}`
+{{ActionCuts Action:XYZ}}
 
 where XYZ is the name of the shortcut or the action block to embed. Consider the screenshot below:
 
@@ -95,11 +95,11 @@ What used to take minutes or even hours now takes seconds!
 
 In your shortcut, surround the actions you want to extract with two comments:
 
-`{{ActionCuts Extract:XYZ}}`
+{{ActionCuts Extract:XYZ}}
 
 … the actions to extract …
 
-`{{/ActionCuts Extract:XYZ}}`
+{{/ActionCuts Extract:XYZ}}
 
 where XYZ is the name of your action block
 

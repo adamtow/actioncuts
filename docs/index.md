@@ -43,11 +43,11 @@ ActionCuts works by looking for specially-formatted comments in a shortcut. It r
 
 Each comment must contain a single line of text in one of two formats: 
 
-`&#123;&#123;ActionCuts Shortcut:XYZ&#125;&#125;`
+&#123;&#123;ActionCuts Shortcut:XYZ&#125;&#125;
 
 or
 
-`&#123;&#123;ActionCuts Action:XYZ&#125;&#125;`
+&#123;&#123;ActionCuts Action:XYZ&#125;&#125;
 
 where `XYZ` is the name of the shortcut or the action block to embed. Consider the screenshot below:
 
@@ -121,11 +121,11 @@ What used to take minutes or even hours now takes seconds! With ActionCuts, you 
 
 In your shortcut, surround the actions you want to extract with two comments:
 
-`&#123;&#123;ActionCuts Extract:XYZ&#125;&#125;`
+&#123;&#123;ActionCuts Extract:XYZ&#125;&#125;
 
 … the actions to extract …
 
-`&#123;&#123;/ActionCuts Extract:XYZ&#125;&#125;`
+&#123;&#123;/ActionCuts Extract:XYZ&#125;&#125;
 
 where XYZ is the name of your action block. Note the ending comment has a \/ character preceeding the word `ActionCuts`.
 

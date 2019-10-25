@@ -189,7 +189,7 @@ When you embed shortcuts and extract action blocks, ActioCuts will give you the 
 <span id="localization"></span>
 ## Localization
 
-ActionCuts is fully localized for the English language, and it has been auto-translated into many other languages. If you would like to contribute and a more accurate localization file for ActionCuts, please visit [ActionCuts' localization page here](https://github.com/adamtow/actioncuts/localization).
+ActionCuts is fully localized for the English language, and it has been auto-translated into many other languages. If you would like to contribute and a more accurate localization file for ActionCuts, please visit [ActionCuts' localization page here](https://github.com/adamtow/actioncuts/tree/master/localization).
 
 ****
 

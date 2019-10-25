@@ -18,6 +18,9 @@ Get the latest version of ActionCuts at RoutineHub.co:
 
 ****
 
+## Video Overview
+Watch the trailer for [ActionCuts on YouTube](https://youtu.be/VI4oZwKL-28).
+
 ## Interface Overview
 
 The following menu is presented by ActionCuts at launch:

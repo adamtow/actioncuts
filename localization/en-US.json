@@ -15,6 +15,8 @@
         "alert_help_5": "After running the Embed Shortcuts or Extract Actions command, ActionCuts gives you the option of creating a new shortcut.\n\n1. Tap Download Shortcut.\n\n2. A link to the shortcut will be created on iCloud.com.\n\n3. Mobile Safari will open to the download page.\n\n4. Tap the link to open Shortcuts.\n\n5. Tap Add Untrusted Shortcut at the bottom of the shortcut to add it to your Shortcuts Library.",
         "alert_help_5_title": "Saving Shortcuts and Actions",
         "alert_localization": "Want to see ActionCuts localized in your language?\n\nVisit the localization page for more details.",
+        "alert_process_action": "Embedding action block:",
+        "alert_process_shortcut": "Embedding shortcut:",
         "alert_update_none": "You are running the latest version of ActionCuts.",
         "error_extract_nothing": "No ActionCuts Extract comments could be found in this shortcut.",
         "error_library_none": "You have no saved actions. Use the Extract Actions command to save commonly used actions from your shortcuts in the Action Blocks Library",
@@ -48,6 +50,7 @@
         "menu_home": "ActionCuts Home",
         "menu_language": "Change Language…",
         "menu_library": "Action Blocks Library…",
+        "menu_notifications": "Display Progress Notifications",
         "menu_quit": "Quit",
         "menu_replace_cancel": "Don't Replace",
         "menu_replace_confirm": "Replace Action Block",
@@ -73,7 +76,7 @@
         "prompt_settings": "ActionCuts Settings",
         "prompt_shortcut": "Select a shortcut:",
         "prompt_shortcut_name": "Enter a name for this new shortcut:",
-        "prompt_success": "{{shortcut}} has been updated to include the following shortcuts:\n\n{{matched}}",
+        "prompt_success": "{{shortcut}} was updated in {{time}} seconds to include the following shortcuts or action blocks:\n\n{{matched}}",
         "prompt_success_unmatched": "\nThe following shortcuts could not be embedded because they do not exist on this iOS device:\n\n{{unmatched}}",
         "prompt_update": "ActionCuts version {{version}} is available. Would you like to download it now?\n\nRelease Notes\n\n{{notes}}"
     }

@@ -1,12 +1,12 @@
 {
-	"fr-FR": {
+    "fr-FR": {
         "alert_about": "Simplifiez et suralimentez votre flux de travail de développement de raccourci en :\n\n- Intégrer des raccourcis dans d'autres raccourcis.\n\nExtraire des blocs d'action des raccourcis.\n\nEnregistrer des blocs d'action dans la bibliothèque actioncuts Action Blocks.",
         "alert_action_comment": "Pour intégrer cette action dans un raccourci, ajoutez une action Commentaire avec la ligne de texte suivante, qui a été copiée sur votre presse-papiers :",
         "alert_donate": "Merci de faire un don et de soutenir mon développement de raccourcis comme ActionCuts!",
         "alert_donate_title": "Je vous remercie!",
         "alert_help_1": "ActionCuts est un outil essentiel pour les développeurs qui fabriquent des raccourcis complexes et réutilisables. ActionCuts peut :\n\nInsérez des raccourcis ou des blocs d'action à l'intérieur d'autres raccourcis.\n\nExtraire les blocs d'action des raccourcis.\n\nEnregistrer des blocs d'action dans une bibliothèque.\n\nDévelopper des raccourcis est devenu beaucoup plus facile avec ActionCuts!",
         "alert_help_1_title": "Aperçu actionCuts",
-        "alert_help_2": "ActionCuts fonctionne en recherchant des commentaires spécialement formatés dans un raccourci. Il remplace le commentaire par le contenu complet d'un autre raccourci ou d'un bloc d'action de la bibliothèque actioncuts Action Blocks.\n\nChaque commentaire contient une seule ligne de texte :\n\n{{ActionCuts Action:XYZ}}\n\nou\n\n{{ActionCuts Action:XYZ}}\n\noù XYZ est le nom du raccourci ou du bloc d'action à intégrer.",
+        "alert_help_2": "ActionCuts fonctionne en recherchant des commentaires spécialement formatés dans un raccourci. Il remplace le commentaire par le contenu complet d'un autre raccourci ou d'un bloc d'action de la bibliothèque actioncuts Action Blocks.\n\nChaque commentaire contient une seule ligne de texte :\n\n{{ActionCuts Shortcut:XYZ}}\n\nou\n\n{{ActionCuts Action:XYZ}}\n\noù XYZ est le nom du raccourci ou du bloc d'action à intégrer.",
         "alert_help_2_title": "ActionCuts Embed Commentaire Format",
         "alert_help_3": "Suivez ces étapes pour intégrer des raccourcis et des blocs d'action dans un raccourci :\n\n1. Ajouter des commentaires D'ActionCuts Embed au raccourci cible.\n\n2. Open ActionCuts.\n\n3. Appuyez sur les raccourcis embed.\n\n4. Sélectionnez le raccourci cible.\n\nTous les commentaires D'ActionCuts Embed dans le raccourci seront traités et remplacés par le raccourci référencé ou le bloc d'action, à condition qu'ils existent sur l'appareil iOS.",
         "alert_help_3_title": "Intégration de raccourcis et d'actions",
